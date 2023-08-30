@@ -14,7 +14,7 @@ function Game() {
   const [guesses, setGuesses] = useState([]);
 
   const addGuess = (value) => {
-    setGuesses([...guesses, { id: Math.random(), value }]);
+    setGuesses([...guesses, value]);
   };
 
   return (
