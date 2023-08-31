@@ -232,6 +232,28 @@ h1 {
   color: white;
 }
 
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+
+.button {
+  position: relative;
+  display: grid;
+  place-content: center;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  width: 25%;
+  aspect-ratio: 3;
+}
+
+.button.primary {
+  background-color: white;
+  color: black;
+}
+
 /*
   Modal styles
 

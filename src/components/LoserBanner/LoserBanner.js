@@ -1,9 +1,9 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 
-function LoserBanner({ answer }) {
+function LoserBanner({ answer, handleRestart }) {
   return (
-    <Banner status="sad">
+    <Banner status="sad" action={handleRestart} actionText="Restart">
       <p>
         Sorry, the correct answer is <strong>{answer}</strong>
       </p>
